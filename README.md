@@ -212,7 +212,7 @@ If no `@key`-property is given `index_x` is used starting by `x=1`.
 
 ```
 <Vendor.Site:Prototype @children="text">
-    <h2 @key="title">{props.title}</h1> 
+    <h2 @key="title">{props.title}</h2> 
     <p @key="description">{props.description}</p>
 </Vendor.Site:Prototype>
 ``` 
@@ -238,7 +238,7 @@ to assign Fusion-prototypes to props.
 
 ```
 <Vendor.Site:Prototype>
-    <h2 @path="title">{props.title}</h1> 
+    <h2 @path="title">{props.title}</h2> 
     <p @path="description">{props.description}</p>
 </Vendor.Site:Prototype>
 ``` 
